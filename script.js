@@ -1,4 +1,3 @@
-// button1
 function addField(){
 let tx=document.createElement("textarea");
 tx.classList.add('form-control');
@@ -10,7 +9,7 @@ var mainButton=document.querySelector("#we fieldset");
 var insertButton=document.querySelector("#weAddButton");
 mainButton.insertBefore(tx,insertButton);
 }
-//button2
+
 function addFieldProject(){
    let tx=document.createElement("textarea");
 tx.classList.add('form-control');
@@ -25,7 +24,7 @@ mainButton.insertBefore(tx,insertButton);
 function printCV(){
    window.print();
 }
-//generate resume button
+
 function generateResume(){
    let nameField=document.querySelector("#fullName").value;
    document.querySelector("#preview-name").innerHTML=nameField;
@@ -56,14 +55,14 @@ function generateResume(){
       let jobDescField=document.querySelector("#jobDesc").value;
     document.querySelector("#preview-experience").innerHTML ="<strong>" + jobTitleField + "</strong><br>" +
     companyField + "<br>" + jobDescField;
-    // for add element values(skills)
+    
     let we= document.querySelectorAll(".weField");
     let s="";
     for(let e of we){
       s=s+"<li>"+e.value+"</li>";
     }
     document.querySelector("#preview-skills").innerHTML=s;
-    //projects
+  
       let weD= document.querySelectorAll(".weProject");
     let p="";
     for(let e of weD){
@@ -76,5 +75,3 @@ document.querySelector("#printBtn").style.display = "block";
     document.querySelector("#resume-form").style.display="none";
    document.querySelector("#printBtn").style.display = "inline-block";
 }
-
-
