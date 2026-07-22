@@ -1,26 +1,33 @@
 # 📄 Online Resume Builder
 
-> A frontend-only web application that helps students and fresh graduates create professional resumes with live preview, resume analysis, portfolio generation, and PDF export.
+> A frontend-only Resume Builder that helps users create professional resumes with a live preview and export them as PDF directly from the browser.
+
+---
+
+## 🌐 Live Demo
+
+**🔗 https://abhishek-commits-hub.github.io/OnlineResumeBuilder/**
 
 ---
 
 ## 🚀 About the Project
 
-Online Resume Builder is a browser-based application built using **HTML5**, **CSS3**, and **Vanilla JavaScript**. It enables users to create a well-structured resume, receive instant feedback, generate a personal portfolio webpage, and export the final resume as a PDF—all without requiring an account or backend server.
+Online Resume Builder is a responsive web application developed using **HTML5**, **CSS3**, and **Vanilla JavaScript**. It allows users to enter their personal, educational, and professional information through an intuitive form and instantly preview a professionally formatted resume.
+
+The entire application runs in the browser without requiring any backend, login, or database.
 
 ---
 
 ## ✨ Features
 
-- 📝 Resume Form Builder
+- 📝 Easy-to-use Resume Builder
 - 👀 Live Resume Preview
-- 📊 Resume Analysis & Scoring
-- 🌐 Portfolio Page Generator
-- 📄 Print / Save as PDF
+- 📄 Print & Save as PDF
 - 📱 Fully Responsive Design
 - ⚡ Fast & Lightweight
-- 🔒 No Login Required
 - 🌐 Works Completely in the Browser
+- 🔒 No Login or Registration Required
+- 🎨 Clean & Professional Resume Layout
 
 ---
 
@@ -30,34 +37,23 @@ Online Resume Builder is a browser-based application built using **HTML5**, **CS
 |------------|---------|
 | HTML5 | Structure & Semantic Layout |
 | CSS3 | Styling & Responsive Design |
-| JavaScript (ES6) | Interactivity & Dynamic Features |
+| JavaScript (ES6) | Dynamic Functionality & Live Preview |
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 OnlineResumeBuilder/
 │
 ├── assets/
-│   ├── images/
-│   ├── icons/
-│   └── fonts/
+│   └── images/
 │
 ├── css/
-│   ├── style.css
-│   ├── responsive.css
-│   └── print.css
+│   └── style.css
 │
 ├── js/
-│   ├── app.js
-│   ├── preview.js
-│   ├── analyser.js
-│   ├── portfolio.js
-│   └── storage.js
-│
-├── pages/
-│   └── portfolio.html
+│   └── script.js
 │
 ├── index.html
 ├── README.md
@@ -68,75 +64,74 @@ OnlineResumeBuilder/
 
 ## 🎯 Project Objectives
 
-- Help students build professional resumes quickly.
-- Provide instant resume quality feedback.
-- Generate a personal portfolio webpage.
-- Allow users to export resumes as PDF.
-- Serve as a practical frontend development project.
+- Build professional resumes quickly and easily.
+- Provide a real-time resume preview while editing.
+- Enable users to print or save resumes as PDF.
+- Demonstrate frontend development skills using HTML, CSS, and JavaScript.
 
 ---
 
-## 📌 Planned Features
+## ✅ Features Implemented
 
-- [ ] Resume Builder
-- [ ] Live Preview
-- [ ] Resume Analysis
-- [ ] Portfolio Generator
-- [ ] Print-Friendly Layout
-- [ ] PDF Export
-- [ ] Multiple Resume Templates
-- [ ] Dark Mode
-- [ ] Auto Save
-- [ ] ATS Keyword Checker
-
----
-
-## 👨‍💻 Team Members
-
-| Name | Responsibility |
-|------|----------------|
-| Manas | HTML Structure & Forms |
-| Abhishek | CSS Design & Responsive Layout |
-| Sourav | JavaScript Functionality |
-
----
-
-## 📷 Screenshots
-
-> Screenshots will be added after the UI is completed.
+- [x] Resume Form
+- [x] Live Resume Preview
+- [x] Responsive Layout
+- [x] Print-Friendly Resume
+- [x] Save as PDF
+- [x] Browser-Based Application
 
 ---
 
 ## 🚀 Getting Started
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Abhishek-Commits-Hub/OnlineResumeBuilder.git
 ```
 
-Open the project folder
+### Navigate to the project folder
 
 ```bash
 cd OnlineResumeBuilder
 ```
 
-Run the project by opening `index.html` in your browser.
+### Run the project
+
+Open `index.html` in your preferred web browser.
 
 ---
 
 ## 📈 Project Status
 
-🚧 Currently Under Development
+✅ Completed
+
+🌐 Live on GitHub Pages
+
+---
+
+## 🤝 Team Members
+
+| Name | Responsibility |
+|------|----------------|
+| Manas | HTML Development |
+| Abhishek | CSS & Responsive Design |
+| Sourav | JavaScript Functionality |
 
 ---
 
 ## 🤝 Contributions
 
-This project is being developed as a collaborative academic project.
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
